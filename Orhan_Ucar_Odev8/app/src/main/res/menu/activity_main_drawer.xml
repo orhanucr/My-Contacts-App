@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_anasayfa"
+            android:icon="@drawable/ic_menu_home_page"
+            android:title="Anasayfa" />
+        <item
+            android:id="@+id/nav_aile"
+            android:icon="@drawable/ic_menu_family"
+            android:title="Aile" />
+        <item
+            android:id="@+id/nav_okul"
+            android:icon="@drawable/ic_menu_school"
+            android:title="Okul" />
+        <item
+            android:id="@+id/nav_arkadaslar"
+            android:icon="@drawable/ic_menu_friends"
+            android:title="Arkadaşlar" />
+        <item
+            android:id="@+id/nav_is"
+            android:icon="@drawable/ic_menu_business"
+            android:title="İş" />
+        <item
+            android:id="@+id/nav_hali_saha"
+            android:icon="@drawable/ic_menu_soccer"
+            android:title="Halı Saha" />
+        <item
+            android:id="@+id/nav_turkcell"
+            android:icon="@drawable/ic_menu_turkcell"
+            android:title="Turkcell Bootcamp" />
+    </group>
+
+</menu>

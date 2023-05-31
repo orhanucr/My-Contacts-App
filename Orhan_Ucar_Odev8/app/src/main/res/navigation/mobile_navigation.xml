@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    android:label="Anasayfa"
+    app:startDestination="@id/nav_anasayfa">
+
+    <fragment
+        android:id="@+id/nav_okul"
+        android:name="com.example.orhan_ucar_odev8.ui.okul.OkulFragment"
+        android:label="@string/menu_okul"
+        tools:layout="@layout/fragment_okul" />
+
+    <fragment
+        android:id="@+id/nav_aile"
+        android:name="com.example.orhan_ucar_odev8.ui.aile.AileFragment"
+        android:label="@string/menu_aile"
+        tools:layout="@layout/fragment_aile" />
+
+    <fragment
+        android:id="@+id/nav_arkadaslar"
+        android:name="com.example.orhan_ucar_odev8.ui.arkadaslar.ArkadaslarFragment"
+        android:label="@string/menu_arkadaslar"
+        tools:layout="@layout/fragment_arkadaslar" />
+    <fragment
+        android:id="@+id/nav_is"
+        android:name="com.example.orhan_ucar_odev8.ui.is.IsFragment"
+        android:label="@string/menu_is"
+        tools:layout="@layout/fragment_is" />
+    <fragment
+        android:id="@+id/nav_hali_saha"
+        android:name="com.example.orhan_ucar_odev8.ui.hali_saha.HaliSahaFragment"
+        android:label="@string/menu_hali_saha"
+        tools:layout="@layout/fragment_hali_saha" />
+    <fragment
+        android:id="@+id/nav_turkcell"
+        android:name="com.example.orhan_ucar_odev8.ui.turkcell.TurkcellFragment"
+        android:label="@string/menu_turkcell"
+        tools:layout="@layout/fragment_turkcell" />
+    <fragment
+        android:id="@+id/nav_anasayfa"
+        android:name="com.example.orhan_ucar_odev8.ui.anasayfa.AnasayfaFragment"
+        android:label="Anasayfa"
+        tools:layout="@layout/fragment_anasayfa" />
+</navigation>

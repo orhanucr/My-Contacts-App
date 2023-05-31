@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Orhan_Ucar_Odev8</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">My Contacts App</string>
+    <string name="nav_header_subtitle">Groups</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_okul">Okul</string>
+    <string name="menu_aile">Aile</string>
+    <string name="menu_arkadaslar">Arkadaşlar</string>
+    <string name="menu_is">İş</string>
+    <string name="menu_hali_saha">Halı Saha</string>
+    <string name="menu_turkcell">Turkcell</string>
+
+    <string-array name="gruplar">
+        <item>Aile</item>
+        <item>Okul</item>
+        <item>Arkadaşlar</item>
+        <item>İş</item>
+        <item>Halı Saha</item>
+        <item>Turkcell Bootcamp</item>
+    </string-array>
+</resources>

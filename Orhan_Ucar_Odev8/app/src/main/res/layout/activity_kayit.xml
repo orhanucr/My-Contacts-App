@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kayitbg"
+    tools:context=".activity.KayitActivity">
+
+    <EditText
+        android:id="@+id/editTextAdres"
+        android:layout_width="256dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Adres"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTelefon" />
+
+    <EditText
+        android:id="@+id/editTextAd"
+        android:layout_width="256dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Ad"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextSoyad"
+        android:layout_width="256dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Soyad"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAd" />
+
+    <EditText
+        android:id="@+id/editTextTelefon"
+        android:layout_width="256dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Telefon Numarası"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextSoyad" />
+
+    <Spinner
+        android:id="@+id/spinnerGrup"
+        android:layout_width="256dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:entries="@array/gruplar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAdres" />
+
+    <TextView
+        android:id="@+id/btnVazgec"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Vazgeç"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:background="@drawable/custom_button_bg"
+        app:layout_constraintStart_toStartOf="@+id/spinnerGrup"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerGrup" />
+
+    <TextView
+        android:id="@+id/btnKaydet"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:padding="15dp"
+        android:text="Kaydet"
+        android:textStyle="bold"
+        android:background="@drawable/custom_button_bg"
+        app:layout_constraintEnd_toEndOf="@+id/spinnerGrup"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerGrup" />
+
+    <TextView
+        android:id="@+id/btnSil"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Delete"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        android:background="@drawable/custom_button_bg"
+        app:layout_constraintStart_toStartOf="@+id/btnVazgec"
+        app:layout_constraintTop_toBottomOf="@+id/btnVazgec" />
+
+    <TextView
+        android:id="@+id/btnGuncelle"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Update"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        android:background="@drawable/custom_button_bg"
+        app:layout_constraintEnd_toEndOf="@+id/btnKaydet"
+        app:layout_constraintTop_toBottomOf="@+id/btnKaydet" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
