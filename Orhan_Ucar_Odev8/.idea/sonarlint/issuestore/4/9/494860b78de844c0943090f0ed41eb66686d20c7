@@ -1,9 +1,9 @@
 
 xkotlin:S6306K"TUsing "GlobalScope" here leads to the breaking of structured concurrency principles.(š£žŒúÿÿÿÿ8úˆŒŒ‡1
 ykotlin:S6306€"TUsing "GlobalScope" here leads to the breaking of structured concurrency principles.(š£žŒúÿÿÿÿ8úˆŒŒ‡1
-tkotlin:S6306Õ"TUsing "GlobalScope" here leads to the breaking of structured concurrency principles.(á¥ €8úˆŒŒ‡1
+tkotlin:S6306Ô"TUsing "GlobalScope" here leads to the breaking of structured concurrency principles.(á¥ €8úˆŒŒ‡1
 ‘kotlin:S4144o"mUpdate this function so that its implementation is not identical to "navigateToAnasayfaFragment" on line 105.(â¹Õ²ýÿÿÿÿ8…‰ŒŒ‡1
 ;kotlin:S6310M"Avoid hardcoded dispatchers.(Ô¥‚ü8‰‰ŒŒ‡1
-<kotlin:S6310Õ"Avoid hardcoded dispatchers.(á¥ €8‰‰ŒŒ‡1
+<kotlin:S6310Ô"Avoid hardcoded dispatchers.(á¥ €8‰‰ŒŒ‡1
 <kotlin:S6310„"Avoid hardcoded dispatchers.(Ô¥‚ü8Š‰ŒŒ‡1
-<kotlin:S6310×"Avoid hardcoded dispatchers.(Í¡·Þ8Š‰ŒŒ‡1
+<kotlin:S6310Ö"Avoid hardcoded dispatchers.(Í¡·Þ8Š‰ŒŒ‡1

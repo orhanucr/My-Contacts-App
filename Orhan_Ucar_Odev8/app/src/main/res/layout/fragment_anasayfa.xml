@@ -11,15 +11,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:padding="16dp">
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_text_background"
+        android:padding="10dp">
 
         <EditText
             android:id="@+id/editTextSearch"
             android:layout_width="314dp"
+            android:textColor="@color/black"
             android:layout_height="56dp"
             android:layout_weight="1"
             android:hint="İsim ile ara.."
+            android:textColorHint="@color/black"
             android:imeOptions="actionSearch"
+            android:padding="8dp"
             android:inputType="text" />
 
         <ImageView

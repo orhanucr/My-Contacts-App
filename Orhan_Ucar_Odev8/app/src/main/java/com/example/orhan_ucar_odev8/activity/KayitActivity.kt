@@ -172,7 +172,6 @@ class KayitActivity : AppCompatActivity() {
             val adres = intent.getStringExtra("adres")
             val grup = intent.getStringExtra("grup")
 
-
             // Verileri ilgili alanlarda göstermek için kullanabilirsiniz
             binding.editTextAd.setText(ad)
             binding.editTextSoyad.setText(soyad)
