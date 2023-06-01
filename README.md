@@ -32,15 +32,6 @@
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'}
     </code></pre>    
-    
- <h2>Uygulama Ekran Görüntüleri</h2>
-<p float="left">
-  <img src=https://github.com/orhanucr/My-Contacts-App/assets/100219838/df860ee5-0116-43b7-a779-9bcd1e4ffe84 width="30%" />
-  <img src=https://github.com/orhanucr/My-Contacts-App/assets/100219838/bbd0b061-1036-4ba6-9cb9-fa240439d9b2 width="30%" />
-  <img src=https://github.com/orhanucr/My-Contacts-App/assets/100219838/af2e28e6-b9ab-456b-bacd-264f8d0f28eb width="30%" />
-  <img src=https://github.com/orhanucr/My-Contacts-App/assets/100219838/781d2392-e558-4f63-82c5-2df682999270 width="30%" />
-  <img src=https://github.com/orhanucr/My-Contacts-App/assets/100219838/caccf56f-7475-4435-a267-423af0d66302 width="30%" />
-</p>
 
 
     
