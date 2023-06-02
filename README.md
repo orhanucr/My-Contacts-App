@@ -1,7 +1,7 @@
 # My Contacts App
 <h2>Orhan Uçar Ödev 8</h2>
  
-<p>Bu örnek projede, Navigation Drawer Menu ile Kartvizit(Kişilerim) Uygulaması gerçekleştirlirmiştir. Kullanıcı yeni bir kişi ekleyebilir, eklediği kişileri görebilir, silebilir ve güncelleyebilir. Son eklenen on kullanıcı anasayfa da görünür. Kullanıcının kişiyi kayıt ederken seçtiği grup bilgisine göre Menu' den de sadece o grupta kayıtlı olan kullanıcıları görme şansına sahiptir. Uygulama da verileri tutmak için Room Database kullanılmıştır.</p>
+<p>Bu örnek projede, Navigation Drawer Menu ile Kartvizit(Kişilerim) Uygulaması gerçekleştirlirmiştir. Kullanıcı yeni bir kişi ekleyebilir, eklediği kişileri görebilir, silebilir ve güncelleyebilir. Son eklenen on kullanıcı anasayfa da görünür. Kullanıcının kişiyi kayıt ederken seçtiği grup bilgisine göre Menu' den de sadece o grupta kayıtlı olan kullanıcıları görme şansına sahiptir. Uygulama da verileri tutmak için Room Database kullanılmıştır.</p> 
 
 <h2>plugins</h2>
 <pre><code>plugins {
